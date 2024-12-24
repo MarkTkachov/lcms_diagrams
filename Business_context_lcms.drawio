@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="Usn4BCQAsHplT3QN1Ott">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-2" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-3" value="Professor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-7" value="StudyCourse (LCMS)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
