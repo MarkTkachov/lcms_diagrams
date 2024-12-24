@@ -1,20 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="Usn4BCQAsHplT3QN1Ott">
-    <mxGraphModel dx="989" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L_OdV-5c9Xuz75KRL7Pi-2" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="160" width="30" height="60" as="geometry" />
+          <mxGeometry x="200" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="L_OdV-5c9Xuz75KRL7Pi-3" target="L_OdV-5c9Xuz75KRL7Pi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-17" value="&lt;div&gt;Own Learning Units, Materials, Courses&lt;br&gt;&lt;/div&gt;&lt;div&gt;Shared Competencies&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_OdV-5c9Xuz75KRL7Pi-16">
+          <mxGeometry x="-0.1931" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L_OdV-5c9Xuz75KRL7Pi-3" value="Professor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="160" width="30" height="60" as="geometry" />
+          <mxGeometry x="360" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="L_OdV-5c9Xuz75KRL7Pi-4" target="L_OdV-5c9Xuz75KRL7Pi-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-21" value="Any Resource" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_OdV-5c9Xuz75KRL7Pi-20">
+          <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L_OdV-5c9Xuz75KRL7Pi-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="170" width="30" height="60" as="geometry" />
+          <mxGeometry x="520" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="L_OdV-5c9Xuz75KRL7Pi-7" target="L_OdV-5c9Xuz75KRL7Pi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-13" value="&lt;div&gt;Learning Units,&lt;/div&gt;&lt;div&gt;Modules, Courses,&lt;br&gt;&lt;/div&gt;&lt;div&gt;Materials,&lt;/div&gt;&lt;div&gt;Competencies&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L_OdV-5c9Xuz75KRL7Pi-12">
+          <mxGeometry x="0.1896" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L_OdV-5c9Xuz75KRL7Pi-7" value="StudyCourse (LCMS)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="320" y="430" width="110" height="50" as="geometry" />
+          <mxGeometry x="275" y="400" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="L_OdV-5c9Xuz75KRL7Pi-4" target="L_OdV-5c9Xuz75KRL7Pi-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="300" as="sourcePoint" />
+            <mxPoint x="630" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_OdV-5c9Xuz75KRL7Pi-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="L_OdV-5c9Xuz75KRL7Pi-3" target="L_OdV-5c9Xuz75KRL7Pi-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
