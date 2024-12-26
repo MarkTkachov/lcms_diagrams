@@ -52,34 +52,12 @@
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-181" value="&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Database Server&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-15" y="600" width="255" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="BuL4cJ5vDAZep0cfOdnn-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="BuL4cJ5vDAZep0cfOdnn-183" target="BuL4cJ5vDAZep0cfOdnn-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="400" y="705" />
-              <mxPoint x="400" y="530" />
-              <mxPoint x="690" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BuL4cJ5vDAZep0cfOdnn-186" value="&lt;div&gt;Postgres Protocol&lt;/div&gt;&lt;div&gt;(TCP/IP)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuL4cJ5vDAZep0cfOdnn-185" vertex="1" connectable="0">
-          <mxGeometry x="-0.197" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-183" value="«Database»&lt;br&gt;&lt;div&gt;&lt;b&gt;StudyBase DB&lt;/b&gt;&lt;/div&gt;(PostgreSQL)" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="20" y="660" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-184" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="BuL4cJ5vDAZep0cfOdnn-183" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BuL4cJ5vDAZep0cfOdnn-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="BuL4cJ5vDAZep0cfOdnn-9" target="BuL4cJ5vDAZep0cfOdnn-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BuL4cJ5vDAZep0cfOdnn-189" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuL4cJ5vDAZep0cfOdnn-187" vertex="1" connectable="0">
-          <mxGeometry x="0.2753" y="-1" relative="1" as="geometry">
-            <mxPoint x="7" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-14" value="&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Backend Server&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
@@ -522,6 +500,28 @@
               <mxPoint x="1448" y="780" />
               <mxPoint x="1630" y="780" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BuL4cJ5vDAZep0cfOdnn-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="BuL4cJ5vDAZep0cfOdnn-9" target="BuL4cJ5vDAZep0cfOdnn-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BuL4cJ5vDAZep0cfOdnn-189" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuL4cJ5vDAZep0cfOdnn-187" vertex="1" connectable="0">
+          <mxGeometry x="0.2753" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BuL4cJ5vDAZep0cfOdnn-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="BuL4cJ5vDAZep0cfOdnn-183" target="BuL4cJ5vDAZep0cfOdnn-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="705" />
+              <mxPoint x="400" y="530" />
+              <mxPoint x="690" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BuL4cJ5vDAZep0cfOdnn-186" value="&lt;div&gt;Postgres Protocol&lt;/div&gt;&lt;div&gt;(TCP/IP)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuL4cJ5vDAZep0cfOdnn-185" vertex="1" connectable="0">
+          <mxGeometry x="-0.197" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
