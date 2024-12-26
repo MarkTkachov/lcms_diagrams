@@ -5,21 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WF4hYW6gQQ_tyJkWMNo5-8" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="110" width="520" height="290" as="geometry" />
+          <mxGeometry x="200" y="160" width="430" height="170" as="geometry" />
         </mxCell>
         <mxCell id="WF4hYW6gQQ_tyJkWMNo5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WF4hYW6gQQ_tyJkWMNo5-1" target="WF4hYW6gQQ_tyJkWMNo5-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WF4hYW6gQQ_tyJkWMNo5-1" value="&lt;div&gt;User&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="220" width="30" height="60" as="geometry" />
+          <mxGeometry x="120" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WF4hYW6gQQ_tyJkWMNo5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="WF4hYW6gQQ_tyJkWMNo5-7" target="WF4hYW6gQQ_tyJkWMNo5-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="425" y="250" />
-              <mxPoint x="425" y="318" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="WF4hYW6gQQ_tyJkWMNo5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WF4hYW6gQQ_tyJkWMNo5-7" target="WF4hYW6gQQ_tyJkWMNo5-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WF4hYW6gQQ_tyJkWMNo5-7" value="StudyCourse Frontend" style="html=1;whiteSpace=wrap;fillColor=#6B6B6B;fontColor=#FFFFFF;strokeColor=#666666;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="250" y="212.5" width="130" height="75" as="geometry" />
@@ -28,10 +23,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WF4hYW6gQQ_tyJkWMNo5-9" value="StudyCourse Backend" style="html=1;whiteSpace=wrap;fillColor=#6B6B6B;fontColor=#FFFFFF;strokeColor=#666666;fillStyle=solid;" vertex="1" parent="1">
-          <mxGeometry x="470" y="280" width="130" height="75" as="geometry" />
+          <mxGeometry x="470" y="212.5" width="130" height="75" as="geometry" />
         </mxCell>
         <mxCell id="WF4hYW6gQQ_tyJkWMNo5-10" value="Database" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="470" y="145" width="130" height="75" as="geometry" />
+          <mxGeometry x="470" y="10" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="WF4hYW6gQQ_tyJkWMNo5-14" value="StudyCourse Level 1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
