@@ -57,6 +57,9 @@
         <mxCell id="0002OhxzDmcrRLHRjXIN-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="0002OhxzDmcrRLHRjXIN-8" target="0002OhxzDmcrRLHRjXIN-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0002OhxzDmcrRLHRjXIN-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="0002OhxzDmcrRLHRjXIN-8" target="0002OhxzDmcrRLHRjXIN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0002OhxzDmcrRLHRjXIN-8" value="learning-unit.service.ts" style="html=1;whiteSpace=wrap;fillColor=#6B6B6B;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="260" y="340" width="140" height="30" as="geometry" />
         </mxCell>
