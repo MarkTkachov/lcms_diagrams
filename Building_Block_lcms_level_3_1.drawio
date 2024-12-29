@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.1">
   <diagram name="Page-1" id="S4To7Q0bcM-65kfj6sJm">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="20" width="170" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hstF_LHHw3WMk86Wa-xs-3">
+          <mxGeometry width="170" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-2" value="prisma/" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hstF_LHHw3WMk86Wa-xs-3">
+          <mxGeometry x="10" width="41.212121212121204" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-6" value="migrations/" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fontColor=#FFFFFF;fillColor=#6B6B6B;" vertex="1" parent="hstF_LHHw3WMk86Wa-xs-3">
+          <mxGeometry x="40" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-5" value="schema.prisma" style="html=1;whiteSpace=wrap;fillColor=#6B6B6B;fontColor=#FFFFFF;" vertex="1" parent="hstF_LHHw3WMk86Wa-xs-3">
+          <mxGeometry x="30" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-7" value="shared/" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#6B6B6B;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hstF_LHHw3WMk86Wa-xs-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="hstF_LHHw3WMk86Wa-xs-5" target="hstF_LHHw3WMk86Wa-xs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
