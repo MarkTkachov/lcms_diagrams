@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.2">
   <diagram name="Page-1" id="3V8vz6xEhUbXwEFhNSxs">
     <mxGraphModel dx="2261" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,26 +28,23 @@
           <mxGeometry x="10" y="50" width="290" height="210" as="geometry" />
         </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-8" value="&lt;div&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;StudyCourse Frontend&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="BuL4cJ5vDAZep0cfOdnn-180" vertex="1">
-          <mxGeometry x="45" y="120" width="220" height="115" as="geometry" />
+          <mxGeometry x="30" y="110" width="235" height="125" as="geometry" />
         </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-14" value="&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Backend Server&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="400" y="200" width="360" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="BuL4cJ5vDAZep0cfOdnn-15" value="&lt;div&gt;&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Podman Container&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="410" y="250" width="330" height="230" as="geometry" />
-        </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-16" value="&lt;div&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;StudyBase&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="465" y="320" width="220" height="120" as="geometry" />
+          <mxGeometry x="435" y="280" width="290" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="S3LI5fGT9TNM7MEWfCCG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BuL4cJ5vDAZep0cfOdnn-8" target="BuL4cJ5vDAZep0cfOdnn-16">
+        <mxCell id="S3LI5fGT9TNM7MEWfCCG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BuL4cJ5vDAZep0cfOdnn-8" target="BuL4cJ5vDAZep0cfOdnn-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S3LI5fGT9TNM7MEWfCCG-4" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S3LI5fGT9TNM7MEWfCCG-3">
+        <mxCell id="S3LI5fGT9TNM7MEWfCCG-4" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S3LI5fGT9TNM7MEWfCCG-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0286" y="2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S3LI5fGT9TNM7MEWfCCG-5" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="S3LI5fGT9TNM7MEWfCCG-5" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="452.5" y="560" width="255" height="180" as="geometry" />
         </mxCell>
         <mxCell id="BuL4cJ5vDAZep0cfOdnn-181" value="&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Database Server&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="S3LI5fGT9TNM7MEWfCCG-5" vertex="1">
