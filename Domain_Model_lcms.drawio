@@ -27,19 +27,22 @@
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-4" value="Competency" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="120" width="140" height="52" as="geometry" />
+          <mxGeometry x="370" y="110" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3C_1CBvjqrhutfCouf-g-4">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="3C_1CBvjqrhutfCouf-g-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3C_1CBvjqrhutfCouf-g-8" target="3C_1CBvjqrhutfCouf-g-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-8" value="LearningMaterial" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="290" width="140" height="52" as="geometry" />
+          <mxGeometry x="670" y="303" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3C_1CBvjqrhutfCouf-g-8">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-12" value="Material" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="398" width="140" height="52" as="geometry" />
+          <mxGeometry x="670" y="430" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3C_1CBvjqrhutfCouf-g-12">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -72,13 +75,32 @@
           <mxGeometry x="530" y="600" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-39" value="&lt;div&gt;teaches&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;0..*&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="190" as="geometry" />
+          <mxGeometry x="414" y="190" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-41" value="&lt;div align=&quot;left&quot;&gt;learningUnitsRequiredBy&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;0..*&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="270" as="geometry" />
         </mxCell>
         <mxCell id="3C_1CBvjqrhutfCouf-g-42" value="&lt;div align=&quot;left&quot;&gt;competencyRequired&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;0..*&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3C_1CBvjqrhutfCouf-g-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3C_1CBvjqrhutfCouf-g-3" target="3C_1CBvjqrhutfCouf-g-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C_1CBvjqrhutfCouf-g-45" value="&lt;div&gt;learningMaterial&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;0..1&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3C_1CBvjqrhutfCouf-g-46" value="&lt;div&gt;material&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;0..1&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3C_1CBvjqrhutfCouf-g-47" value="&lt;div align=&quot;left&quot;&gt;learningUnits&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;0..*&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3C_1CBvjqrhutfCouf-g-48" value="&lt;div&gt;materials&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;0..*&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="310" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
